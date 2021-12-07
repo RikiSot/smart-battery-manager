@@ -11,10 +11,7 @@
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Status](#status)
 - [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributing](#contributing)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
@@ -24,15 +21,16 @@
 
 This repo contains the code I made for my master's thesis. The purpose of this project is control the batteries charge cycle of a house in a smart way in order to save energy and reduce the needed capacity of the batteries.
 
+Using big data and deep learning tools, it is possible to forecast electric consumption and compare the result to the power output from a solar panel array. The comparision will determine the behaviour of the charging profile of the batteries.
+
 The whole project can be reached at www.sampletext.com
 
-## Status
-
-Here goes all the budgets
 
 ## What's included
 
-This is the folder structure. All source code is under src folder.
+This is the folder structure. All source code is under src folder. There's a test script that can be used to verify the functionality. Results are stored in csv format at /Data/charge_battery_data.csv.
+
+Data analysis and model building are under /JupyterNotebooks.
 
 ```text
 TFM-git/
@@ -46,21 +44,12 @@ TFM-git/
     └── src/
         ├── smart_algorithym.py
         ├── bateria.py
+        ├── main.py
+        ├── test.py
         └── functions.py
         
 ```
 
-## Bugs and feature requests
-
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
-
-## Contributing
-
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
-
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
 ## Creators
 
@@ -70,10 +59,11 @@ Editor preferences are available in the [editor config](https://reponame/blob/ma
 
 ## Thanks
 
-Special thanks to my tutor for suggesting the idea!
+Special thanks to my tutors for suggesting the idea!  
+- Raúl Gonzalez Medina  
+- Emilio Figueres Amoros  
 
 ## Copyright and license
 
 Code released under the [MIT License](https://reponame/blob/master/LICENSE).
-# smart-battery-manager
 
