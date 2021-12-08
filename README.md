@@ -19,7 +19,7 @@
 
 ## Introduction
 
-This repo contains the code I made for my master's thesis. The purpose of this project is control the batteries charge cycle of a house in a smart way in order to save energy and reduce the needed capacity of the batteries.
+This repo contains the code I made for my master's thesis. The purpose of this project is control the batteries charge cycle of a house in a smart way in order to save energy and reduce the needed capacity of the batteries. Besides, increasing the charging-decision frequency can lead to better battery life expectancy as the batteries are less exposed to full charging cyles.
 
 Using big data and deep learning tools, it is possible to forecast electric consumption and compare the result to the power output from a solar panel array. The comparision will determine the behaviour of the charging profile of the batteries.
 
