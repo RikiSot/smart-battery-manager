@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 
+
 def get_irradiance_next_hour():
     # API  parametros
     baseurl = 'http://dataservice.accuweather.com/forecasts/v1/hourly/1hour/'
@@ -19,8 +20,7 @@ def get_irradiance_next_hour():
         result = response.json()[0]['SolarIrradiance']['Value']
     except:
         result = 0
-    return result * 1000
-
+    return result
 
 
 def series_to_supervised(data, n_in=1, n_out=1, dropnan=True):
