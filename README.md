@@ -1,11 +1,9 @@
 <p align="center">
-  <!---
-  <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
-  </a>
-  -->
 
-  <h3 align="center">Smart Battery Manager</h3>
+  <a href="https://imgur.com/U3PUiCS"><img src="https://i.imgur.com/U3PUiCS.png" title="source: imgur.com" /></a>
+
+
+  <h3 align="center"></h3>
 
 </p>
 
