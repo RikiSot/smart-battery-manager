@@ -55,7 +55,7 @@ TFM-git/
 
 **Ricardo Gomez**
 
-- <https://github.com/RkGomez>
+- [LinkedIn](https://www.linkedin.com/in/ricardogomez-al)
 
 ## Thanks
 
