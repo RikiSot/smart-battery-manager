@@ -23,7 +23,7 @@ This repo contains the code I made for my master's thesis. The purpose of this p
 
 Using big data and deep learning tools, it is possible to forecast electric consumption and compare the result to the power output from a solar panel array. The comparision will determine the behaviour of the charging profile of the batteries.
 
-The whole project can be reached at www.sampletext.com
+The whole project can be reached at the public UPV repository (Spanish) [RiuNet](https://riunet.upv.es/handle/10251/181879)
 
 
 ## What's included
