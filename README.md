@@ -28,9 +28,9 @@ The whole project can be reached at the public UPV repository (Spanish) [RiuNet]
 
 ## What's included
 
-This is the folder structure. All source code is under src folder. There's a test script that can be used to verify the functionality. Results are stored in csv format at /Data/charge_battery_data.csv.
+This is the folder structure. All source code is under src folder. There's a test script that can be used to verify the functionality. Results are stored in csv format at Data/charge_battery_data.csv.
 
-Data analysis and model building are under /JupyterNotebooks.
+Data analysis and model building are under JupyterNotebooks/.
 
 ```text
 TFM-git/
